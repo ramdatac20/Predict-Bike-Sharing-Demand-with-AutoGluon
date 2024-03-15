@@ -1,14 +1,42 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+Ramkumar M 
+Date - 15-March-2024
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+
+Model performance is low, as I have not performed any feature engineering. This can be due to datetime feature which is not split into month, day, year etc. 
+
+Also while submitting it is important to remove negative values in predictions that it will be accepted in kaggle submission
+
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
+
+From all the experiments that I have performed it appears that WeightedEnsemble type models are performing well compared to other model. This is an ensemble type of model -  WeightedEnsemble refers to a method for combining predictions from multiple models. 
+
+**Experiment 1 - Base experiment**
+
+- WeightedEnsemble_L3  - RMSE 1.77810
+
+**Experiment 2 - Feature Engineering**
+
+- WeightedEnsemble_L3   - RMSE 0.46778
+
+**Experiment 3 - HPO**
+
+- WeightedEnsemble_L2  - RMSE 0.50189
+
+
+  From the above values we can see that WeightedEnsemble_L3 model from experiment 2 has performed well.
+
+  ---
+  
 
 ## Exploratory data analysis and feature creation
+
+
+![Exploratory Data Analysis](images/exp1.png)
+
 ### What did the exploratory analysis find and how did you add additional features?
 TODO: Add your explanation
 
