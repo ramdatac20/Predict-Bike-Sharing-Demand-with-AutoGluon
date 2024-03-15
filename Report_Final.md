@@ -38,7 +38,13 @@ From all the experiments that I have performed it appears that WeightedEnsemble 
 ![Exploratory Data Analysis](images/exp1.png)
 
 ### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
+
+Key Finding 
+- There are no missing values in the data
+- **Datetime**: It seems to have a uniform distribution except for some gaps, which might represent missing data or no bike rentals during specific periods (likely night hours). Additional features like hour, day, month, and year could be extracted to capture the cyclical nature of time, which can affect bike rental frequency.
+- **Season**: This categorical feature has four distinct values likely representing the four seasons. Since it is categorical, no further feature engineering is necessary besides possibly ensuring it's treated as a categorical variable during modeling.
+- **Workingday**: There's a noticeable balance between working days and non-working days, which may significantly influence rental patterns.
+- **Temp and Atemp**: These two features show a somewhat bell-shaped distribution, indicating that there are common average temperatures where bike rentals occur.
 
 ### How much better did your model preform after adding additional features and why do you think that is?
 TODO: Add your explanation
