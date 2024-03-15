@@ -32,7 +32,7 @@ From all the experiments that I have performed it appears that WeightedEnsemble 
   ---
   
 
-## Exploratory data analysis and feature creation
+## Exploratory data analysis and Feature creation
 
 
 ![Exploratory Data Analysis](images/exp1.png)
@@ -57,17 +57,19 @@ TODO: Add your explanation
 |add_features|?|?|?|?|
 |hpo|?|?|?|?|
 
+![Table](images/table.png)
+
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
 
-![model_train_score.png](img/model_train_score.png)
+![model_train_score.png](images/score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 TODO: Replace the image below with your own.
 
-![model_test_score.png](img/model_test_score.png)
+![kaggle Score](images/kaggle_score.png)
 
 ## Summary
 TODO: Add your explanation
