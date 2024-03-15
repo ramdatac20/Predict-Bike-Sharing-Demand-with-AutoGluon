@@ -96,5 +96,11 @@ TODO: Replace the image below with your own.
 
 ![kaggle Score](images/kaggle_score.png)
 
+
+---
+
 ## Summary
-TODO: Add your explanation
+
+
+Overall it appears that feature engineering coupled with proper hyper parameter tuning will yield good results. With these 3 experiments, we can identify the direction where we need to work upon.
+Each of these areas offers the potential to improve the model's predictive performance, operational efficiency, or both.
